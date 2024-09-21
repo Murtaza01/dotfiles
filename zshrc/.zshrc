@@ -17,3 +17,5 @@ alias mvpic='mv ~/*.png ~/Pictures/';
 alias rmlck='sudo rm /var/lib/pacman/db.lck'
 alias v='nvim'
 alias changeLang='setxkbmap -query | grep -q 'ara' && setxkbmap us || setxkbmap ara,us'
+
+eval $(thefuck --alias)
